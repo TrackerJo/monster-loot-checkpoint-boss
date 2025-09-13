@@ -1,0 +1,25 @@
+.grid {
+
+    /* backdrop-filter: blur(10px); */
+    /* -webkit-backdrop-filter: blur(10px); */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    border-radius: 16px;
+
+    padding: 10px;
+    /* position: relative; */
+}
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

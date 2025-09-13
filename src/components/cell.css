@@ -1,0 +1,97 @@
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.empty-cell,
+.title-cell {
+
+    border: 0 !important;
+}
+
+.monster-cell {
+
+
+    background-color: red;
+    cursor: pointer;
+
+
+}
+
+.loot-cell {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.checkpoint-cell {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.boss-cell {
+    background-color: purple;
+    cursor: pointer;
+}
+
+.start-cell {
+    background-color: green;
+    cursor: pointer;
+}
+
+.end-cell {
+    /* Create a checkered pattern */
+    background:
+        repeating-conic-gradient(#fff 0% 25%,
+            #000 0% 50%);
+    background-size: 20px 20px;
+}
+
+.player-icons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 60px;
+}
+
+.player-icon {
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.title-cell {
+    position: relative;
+}
+
+.title-cell .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    position: absolute;
+    top: 30%;
+
+
+
+}
+
+.title-cell .title img {
+    width: 80px;
+    height: 80px;
+}

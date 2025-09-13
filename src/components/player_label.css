@@ -1,0 +1,88 @@
+.player-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+
+}
+
+.player-label.current-player {
+    color: yellow;
+    text-shadow: 1px 1px 2px black, 0 0 5px yellow;
+}
+
+.player-label-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.player-label-name {
+    margin-top: 2px;
+}
+
+.player-label-stats {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.player-label-stat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.player-label-stat-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.player-label-stat-value {
+    font-weight: bold;
+}
+
+.player-label-inventory {
+    margin-top: 4px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-label-inventory-title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.player-0 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.player-1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.player-2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.player-3 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

@@ -1,0 +1,41 @@
+.Local {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.add-players {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* position: absolute; */
+
+}
+
+.Title img {
+    width: 64px;
+    height: 64px;
+}
+
+.player-labels {}
