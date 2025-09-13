@@ -15,7 +15,7 @@ export default defineConfig({
       "@": resolve(__dirname, "./src"),
     },
   },
-  base: '/',
+  base: '/monster-loot-checkpoint-boss/',
   build: {
     outDir,
     emptyOutDir: true,

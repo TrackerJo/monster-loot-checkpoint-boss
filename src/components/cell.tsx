@@ -31,7 +31,7 @@ function CellComponent({ cell, onClick, cellId, currentPlayerId }: CellProps) {
         }
     }
     return (
-        <div className={`cell ${cell.type.toString().toLowerCase()}-cell`} onClick={() => onClick(cellId)}>
+        <div className={`cell ${cell.type.toString().toLowerCase()}-cell`} >
             {cell.type === 'Monster' && !(cell as MonsterCell).monster.ignorePlayers.includes(currentPlayerId) ? "Lvl. " + (cell as MonsterCell).monster.level : cell.type === 'Boss' ? "Lvl. " + (cell as BossCell).boss.level : ""}
             <div className="player-icons">
                 {cell.playerIcons.map((icon) => <img className="player-icon" src={getPlayerIcon(icon.icon)} alt="" />)}
